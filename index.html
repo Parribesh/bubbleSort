@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body >
+    <h2> Bubble Sort Visualizer</h2>
+    <hr>
+    <div style="display: flex;">
+        <div class="main_control">
+            <label>Number of items  </label>
+            <input id = "control_value" value ="100" type = "number"></input>
+            <br/>
+            <label>Select Interval </label>
+            <input id = "control_interval" value = ".1" placeholder="seconds" type = "number"></input>
+            <button class ="control_button" id = "main_start">Start</button>
+        </div>
+        <div id = "main_context" class="main_context"></div>
+    </div>
+  </body>
+</html>
